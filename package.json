@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe App",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "buld": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunbe/forkify.git"
+  },
+  "author": "Bruno & Jonas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunbe/forkify/issues"
+  },
+  "homepage": "https://github.com/brunbe/forkify#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
