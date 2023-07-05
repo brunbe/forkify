@@ -1,5 +1,6 @@
 import * as model from './model.js';
 import recipeView from './views/recipeView.js';
+// import addHandlerRender from './views/recipeView.js';
 
 // import icons from '../img/icons.svg'; // parcel 1
 import 'core-js/stable';
@@ -30,6 +31,8 @@ const controlRecipes = async function () {
   }
 };
 
-['hashchange', 'load'].forEach(ev =>
-  window.addEventListener(ev, controlRecipes)
-);
+const init = function () {
+  recipeView.addHandlerRender(controlRecipes);
+};
+
+init();
